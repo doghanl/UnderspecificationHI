@@ -1,8 +1,23 @@
-This work provides an NN-based method to address the under-specification in HI-based RUL prediction.
-The experiments use the C-MAPSS dataset.
+README
+This repository provides a neural network (NN)-based method to address under-specification in Health Index (HI)-based Remaining Useful Life (RUL) prediction. The experiments utilize the C-MAPSS dataset.
 
-File iteration.py trains the models giving high RUL prediction accuracy and curveFinding.py seeks a low-loss curve connecting 2 trained models to provide a low-loss area for optimizing.
-convex(more).pt and convex(less).pt are two trained samples that can be directly used in curveFinding.py
-RULonly.pt, multi.pt, and cost+RUL.pt are models trained with RUL loss only, multiple restarts, and a linear combination of RUL loss and cost loss. These models can be compared with our method.
+Files and Functionality
+iteration.py: Trains the models to achieve high RUL prediction accuracy.
+curveFinding.py: Seeks a low-loss curve connecting two trained models to provide a low-loss area for optimization.
+convex(more).pt and convex(less).pt: Two trained samples that can be directly used in curveFinding.py.
+RULonly.pt, multi.pt, and cost+RUL.pt: Models trained with RUL loss only, multiple restarts, and a linear combination of RUL loss and cost loss, respectively. These models can be compared with our method.
 
-Requirements: pytorch, numpy, matplotlib.
+Requirements
+PyTorch
+NumPy
+Matplotlib
+
+
+Training Models:
+Run iteration.py to train models with high RUL prediction accuracy.
+
+Finding Low-Loss Curves:
+Use curveFinding.py to seek a low-loss curve connecting the trained models, providing a low-loss area for optimization.
+
+Comparing Models:
+Compare the models RULonly.pt, multi.pt, and cost+RUL.pt with our method using the provided files.
