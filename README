@@ -1,1 +1,8 @@
+This work provides an NN-based method to address the under-specification in HI-based RUL prediction.
+The experiments use the C-MAPSS dataset.
 
+File iteration.py trains the models giving high RUL prediction accuracy and curveFinding.py seeks a low-loss curve connecting 2 trained models to provide a low-loss area for optimizing.
+convex(more).pt and convex(less).pt are two trained samples that can be directly used in curveFinding.py
+RULonly.pt, multi.pt, and cost+RUL.pt are models trained with RUL loss only, multiple restarts, and a linear combination of RUL loss and cost loss. These models can be compared with our method.
+
+Requirements: pytorch, numpy, matplotlib.
