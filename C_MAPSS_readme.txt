@@ -42,4 +42,4 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 26)	sensor measurement  21
 
 
-Reference: A. Saxena, K. Goebel, D. Simon, and N. Eklund, “Damage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation? in the Proceedings of the Ist International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
+Reference: A. Saxena, K. Goebel, D. Simon, and N. Eklund, â€œDamage Propagation Modeling for Aircraft Engine Run-to-Failure Simulation? in the Proceedings of the Ist International Conference on Prognostics and Health Management (PHM08), Denver CO, Oct 2008.
